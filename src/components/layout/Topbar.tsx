@@ -154,7 +154,7 @@ export const Topbar = ({ onMenuToggle }: TopbarProps) => {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" className="gap-2 hidden sm:flex">
-                <span className="text-sm text-muted-foreground">Douglas McGee</span>
+                <span className="text-sm text-muted-foreground">Ahmad Fatoni</span>
                 <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center">
                   <User className="w-4 h-4" />
                 </div>

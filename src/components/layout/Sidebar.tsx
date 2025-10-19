@@ -64,7 +64,7 @@ export const Sidebar = ({ isOpen, onToggle }: SidebarProps) => {
                 <Smile className="w-8 h-8 text-sidebar-foreground" />
               </div>
               <div className="text-sidebar-foreground font-bold text-xl">
-                SB Admin <sup className="text-sm">2</sup>
+                Database MBG
               </div>
             </Link>
             <Button
