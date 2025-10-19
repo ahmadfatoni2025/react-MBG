@@ -1,58 +1,58 @@
-# Welcome to your Lovable project
+# Selamat datang di proyek Lovable Anda
 
-## Project info
+## Info proyek
 
 **URL**: https://lovable.dev/projects/bcdeae9f-6c1a-4e12-9ef1-ae99aaa9a725
 
-## How can I edit this code?
+## Bagaimana cara mengedit kode ini?
 
-There are several ways of editing your application.
+Ada beberapa cara untuk mengedit aplikasi Anda.
 
-**Use Lovable**
+**Gunakan Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bcdeae9f-6c1a-4e12-9ef1-ae99aaa9a725) and start prompting.
+Cukup kunjungi [Proyek Lovable](https://lovable.dev/projects/bcdeae9f-6c1a-4e12-9ef1-ae99aaa9a725) dan mulai menjalankan prompt.
 
-Changes made via Lovable will be committed automatically to this repo.
+Perubahan yang dibuat melalui Lovable akan otomatis dikomit ke repositori ini.
 
-**Use your preferred IDE**
+**Gunakan IDE pilihan Anda**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Jika Anda ingin bekerja secara lokal menggunakan IDE Anda sendiri, Anda dapat mengkloning repositori ini dan mengirimkan perubahan. Perubahan yang dikirimkan juga akan terlihat di Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Satu-satunya persyaratan adalah menginstal Node.js & npm - [instal dengan nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+Ikuti langkah-langkah berikut:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Langkah 1: Kloning repositori menggunakan URL Git proyek.
+git clone <URL_GIT_ANDA>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Langkah 2: Arahkan ke direktori proyek.
+cd <NAMA_PROYEK_ANDA>
 
-# Step 3: Install the necessary dependencies.
+# Langkah 3: Instal dependensi yang diperlukan.
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Langkah 4: Jalankan server pengembangan dengan pemuatan ulang otomatis dan pratinjau instan.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+**Edit berkas langsung di GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Arahkan ke berkas yang diinginkan.
+- Klik tombol "Edit" (ikon pensil) di kanan atas tampilan berkas.
+- Buat perubahan dan komit perubahan tersebut.
 
-**Use GitHub Codespaces**
+**Gunakan GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Buka halaman utama repositori Anda.
+- Klik tombol "Kode" (tombol hijau) di pojok kanan atas.
+- Pilih tab "Codespaces".
+- Klik "Codespace Baru" untuk meluncurkan lingkungan Codespace baru.
+- Edit berkas langsung di dalam Codespace dan lakukan commit serta push perubahan Anda setelah selesai.
 
-## What technologies are used for this project?
+## Teknologi apa yang digunakan untuk proyek ini?
 
-This project is built with:
+Proyek ini dibangun dengan:
 
 - Vite
 - TypeScript
@@ -60,14 +60,14 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Bagaimana cara men-deploy proyek ini?
 
-Simply open [Lovable](https://lovable.dev/projects/bcdeae9f-6c1a-4e12-9ef1-ae99aaa9a725) and click on Share -> Publish.
+Cukup buka [Lovable](https://lovable.dev/projects/bcdeae9f-6c1a-4e12-9ef1-ae99aaa9a725) dan klik Bagikan -> Publikasikan.
 
-## Can I connect a custom domain to my Lovable project?
+## Bisakah saya menghubungkan domain khusus ke proyek Lovable saya?
 
-Yes, you can!
+Ya, Anda bisa!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Untuk menghubungkan domain, buka Proyek > Pengaturan > Domain, lalu klik Hubungkan Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Baca selengkapnya di sini: [Menyiapkan domain kustom](https://docs.lovable.dev/features/custom-domain#custom-domain)
