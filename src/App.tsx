@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Tables from "./pages/Tables";
 import Charts from "./pages/Charts";
+import AddData from "./pages/AddData";
 import NotFound from "./pages/NotFound";
 import { DashboardLayout } from "./components/layout/DashboardLayout";
 
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/" element={<DashboardLayout><Dashboard /></DashboardLayout>} />
           <Route path="/tables" element={<Tables />} />
           <Route path="/charts" element={<Charts />} />
+          <Route path="/add-data" element={<AddData />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -10,7 +10,8 @@ import {
   ChevronDown,
   Smile,
   Menu,
-  X
+  X,
+  Database
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -241,6 +242,20 @@ export const Sidebar = ({ isOpen, onToggle }: SidebarProps) => {
             >
               <Table className="w-5 h-5" />
               <span>Tables</span>
+            </Link>
+
+            {/* Add Data */}
+            <Link
+              to="/add-data"
+              className={cn(
+                "flex items-center gap-3 px-3 py-2 rounded-lg text-sidebar-foreground transition-colors",
+                isActive("/add-data")
+                  ? "bg-sidebar-accent"
+                  : "hover:bg-sidebar-accent/50"
+              )}
+            >
+              <Database className="w-5 h-5" />
+              <span>Add Data</span>
             </Link>
           </nav>
         </div>
